@@ -2,13 +2,13 @@
 
 require_once __DIR__.'/vendor/autoload.php';
 
-use Junior\FipePhpSdk\FipeClient;
-use Junior\FipePhpSdk\Make\DTOs\MakesByVehicleTypeDTO;
-use Junior\FipePhpSdk\Model\DTOs\ModelsByMakePayloadDTO;
-use Junior\FipePhpSdk\Model\DTOs\ModelsByYearPayloadDTO;
-use Junior\FipePhpSdk\Model\DTOs\ModelYearsPayloadDTO;
-use Junior\FipePhpSdk\Vehicle\DTOs\VehiclePayloadDTO;
-use Junior\FipePhpSdk\Vehicle\Enums\FipeVehicleTypeEnum;
+use Hertzogjr\FipePhpSdk\FipeClient;
+use Hertzogjr\FipePhpSdk\Make\DTOs\MakesByVehicleTypeDTO;
+use Hertzogjr\FipePhpSdk\Model\DTOs\ModelsByMakePayloadDTO;
+use Hertzogjr\FipePhpSdk\Model\DTOs\ModelsByYearPayloadDTO;
+use Hertzogjr\FipePhpSdk\Model\DTOs\ModelYearsPayloadDTO;
+use Hertzogjr\FipePhpSdk\Vehicle\DTOs\VehiclePayloadDTO;
+use Hertzogjr\FipePhpSdk\Vehicle\Enums\FipeVehicleTypeEnum;
 
 $client = new FipeClient;
 
