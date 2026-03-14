@@ -3,9 +3,9 @@
 use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
-use Junior\FipePhpSdk\ReferenceTable\Entities\FipeReferenceTableEntity;
-use Junior\FipePhpSdk\ReferenceTable\FipeReferenceTableException;
-use Junior\FipePhpSdk\ReferenceTable\FipeReferenceTableResource;
+use Hertzogjr\FipePhpSdk\ReferenceTable\Entities\FipeReferenceTableEntity;
+use Hertzogjr\FipePhpSdk\ReferenceTable\FipeReferenceTableException;
+use Hertzogjr\FipePhpSdk\ReferenceTable\FipeReferenceTableResource;
 
 describe('FipeReferenceTableResource', function () {
     it('returns FipeReferenceTableEntity array on success', function () {

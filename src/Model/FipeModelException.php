@@ -1,6 +1,6 @@
 <?php
 
-namespace Junior\FipePhpSdk\Model;
+namespace Hertzogjr\FipePhpSdk\Model;
 
 class FipeModelException extends \InvalidArgumentException
 {

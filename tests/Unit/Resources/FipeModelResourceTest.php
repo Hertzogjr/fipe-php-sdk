@@ -3,14 +3,14 @@
 use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
-use Junior\FipePhpSdk\Model\DTOs\ModelsByMakePayloadDTO;
-use Junior\FipePhpSdk\Model\DTOs\ModelsByYearPayloadDTO;
-use Junior\FipePhpSdk\Model\DTOs\ModelYearsPayloadDTO;
-use Junior\FipePhpSdk\Model\Entities\FipeModelEntity;
-use Junior\FipePhpSdk\Model\Entities\FipeYearEntity;
-use Junior\FipePhpSdk\Model\FipeModelException;
-use Junior\FipePhpSdk\Model\FipeModelResource;
-use Junior\FipePhpSdk\Vehicle\Enums\FipeVehicleTypeEnum;
+use Hertzogjr\FipePhpSdk\Model\DTOs\ModelsByMakePayloadDTO;
+use Hertzogjr\FipePhpSdk\Model\DTOs\ModelsByYearPayloadDTO;
+use Hertzogjr\FipePhpSdk\Model\DTOs\ModelYearsPayloadDTO;
+use Hertzogjr\FipePhpSdk\Model\Entities\FipeModelEntity;
+use Hertzogjr\FipePhpSdk\Model\Entities\FipeYearEntity;
+use Hertzogjr\FipePhpSdk\Model\FipeModelException;
+use Hertzogjr\FipePhpSdk\Model\FipeModelResource;
+use Hertzogjr\FipePhpSdk\Vehicle\Enums\FipeVehicleTypeEnum;
 
 describe('FipeModelResource::all()', function () {
     beforeEach(function () {

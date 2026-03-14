@@ -1,9 +1,9 @@
 <?php
 
-namespace Junior\FipePhpSdk\ReferenceTable;
+namespace Hertzogjr\FipePhpSdk\ReferenceTable;
 
 use GuzzleHttp\Client;
-use Junior\FipePhpSdk\ReferenceTable\Entities\FipeReferenceTableEntity;
+use Hertzogjr\FipePhpSdk\ReferenceTable\Entities\FipeReferenceTableEntity;
 
 final class FipeReferenceTableResource
 {

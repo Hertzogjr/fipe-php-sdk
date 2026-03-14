@@ -1,6 +1,6 @@
 <?php
 
-namespace Junior\FipePhpSdk\Make;
+namespace Hertzogjr\FipePhpSdk\Make;
 
 class FipeMakeException extends \InvalidArgumentException
 {

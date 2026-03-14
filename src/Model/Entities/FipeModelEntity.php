@@ -1,6 +1,6 @@
 <?php
 
-namespace Junior\FipePhpSdk\Model\Entities;
+namespace Hertzogjr\FipePhpSdk\Model\Entities;
 
 readonly class FipeModelEntity implements \JsonSerializable
 {

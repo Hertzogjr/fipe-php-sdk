@@ -3,10 +3,10 @@
 use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
-use Junior\FipePhpSdk\Make\DTOs\MakesByVehicleTypeDTO;
-use Junior\FipePhpSdk\Make\Entities\FipeMakeEntity;
-use Junior\FipePhpSdk\Make\FipeMakeException;
-use Junior\FipePhpSdk\Vehicle\Enums\FipeVehicleTypeEnum;
+use Hertzogjr\FipePhpSdk\Make\DTOs\MakesByVehicleTypeDTO;
+use Hertzogjr\FipePhpSdk\Make\Entities\FipeMakeEntity;
+use Hertzogjr\FipePhpSdk\Make\FipeMakeException;
+use Hertzogjr\FipePhpSdk\Vehicle\Enums\FipeVehicleTypeEnum;
 
 describe('Makes via FipeClient', function () {
     beforeEach(function () {

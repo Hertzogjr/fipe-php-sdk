@@ -3,8 +3,8 @@
 use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
-use Junior\FipePhpSdk\ReferenceTable\Entities\FipeReferenceTableEntity;
-use Junior\FipePhpSdk\ReferenceTable\FipeReferenceTableException;
+use Hertzogjr\FipePhpSdk\ReferenceTable\Entities\FipeReferenceTableEntity;
+use Hertzogjr\FipePhpSdk\ReferenceTable\FipeReferenceTableException;
 
 describe('Reference table via FipeClient', function () {
     it('returns a list of reference tables with code and month', function () {

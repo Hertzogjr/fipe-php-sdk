@@ -1,6 +1,6 @@
 <?php
 
-namespace Junior\FipePhpSdk\Make\Entities;
+namespace Hertzogjr\FipePhpSdk\Make\Entities;
 
 class FipeMakeEntity
 {

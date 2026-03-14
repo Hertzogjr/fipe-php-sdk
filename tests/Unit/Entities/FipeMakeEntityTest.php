@@ -1,6 +1,6 @@
 <?php
 
-use Junior\FipePhpSdk\Make\Entities\FipeMakeEntity;
+use Hertzogjr\FipePhpSdk\Make\Entities\FipeMakeEntity;
 
 describe('FipeMakeEntity', function () {
     it('maps fromArray using Portuguese API keys', function () {

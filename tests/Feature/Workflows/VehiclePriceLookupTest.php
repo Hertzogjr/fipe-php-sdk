@@ -1,14 +1,14 @@
 <?php
 
 use GuzzleHttp\Psr7\Response;
-use Junior\FipePhpSdk\Make\DTOs\MakesByVehicleTypeDTO;
-use Junior\FipePhpSdk\Make\Entities\FipeMakeEntity;
-use Junior\FipePhpSdk\Model\DTOs\ModelYearsPayloadDTO;
-use Junior\FipePhpSdk\Model\Entities\FipeYearEntity;
-use Junior\FipePhpSdk\ReferenceTable\Entities\FipeReferenceTableEntity;
-use Junior\FipePhpSdk\Vehicle\DTOs\VehiclePayloadDTO;
-use Junior\FipePhpSdk\Vehicle\Entities\FipeVehicleEntity;
-use Junior\FipePhpSdk\Vehicle\Enums\FipeVehicleTypeEnum;
+use Hertzogjr\FipePhpSdk\Make\DTOs\MakesByVehicleTypeDTO;
+use Hertzogjr\FipePhpSdk\Make\Entities\FipeMakeEntity;
+use Hertzogjr\FipePhpSdk\Model\DTOs\ModelYearsPayloadDTO;
+use Hertzogjr\FipePhpSdk\Model\Entities\FipeYearEntity;
+use Hertzogjr\FipePhpSdk\ReferenceTable\Entities\FipeReferenceTableEntity;
+use Hertzogjr\FipePhpSdk\Vehicle\DTOs\VehiclePayloadDTO;
+use Hertzogjr\FipePhpSdk\Vehicle\Entities\FipeVehicleEntity;
+use Hertzogjr\FipePhpSdk\Vehicle\Enums\FipeVehicleTypeEnum;
 
 describe('Full vehicle price lookup workflow', function () {
     it('chains reference table → make → model years → vehicle price through one FipeClient', function () {

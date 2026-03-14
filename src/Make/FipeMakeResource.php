@@ -1,10 +1,10 @@
 <?php
 
-namespace Junior\FipePhpSdk\Make;
+namespace Hertzogjr\FipePhpSdk\Make;
 
 use GuzzleHttp\Client;
-use Junior\FipePhpSdk\Make\DTOs\MakesByVehicleTypeDTO;
-use Junior\FipePhpSdk\Make\Entities\FipeMakeEntity;
+use Hertzogjr\FipePhpSdk\Make\DTOs\MakesByVehicleTypeDTO;
+use Hertzogjr\FipePhpSdk\Make\Entities\FipeMakeEntity;
 
 final class FipeMakeResource
 {

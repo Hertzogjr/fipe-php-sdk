@@ -1,6 +1,6 @@
 <?php
 
-use Junior\FipePhpSdk\Vehicle\Enums\FipeVehicleTypeEnum;
+use Hertzogjr\FipePhpSdk\Vehicle\Enums\FipeVehicleTypeEnum;
 
 describe('FipeVehicleTypeEnum', function () {
     it('has correct values', function () {

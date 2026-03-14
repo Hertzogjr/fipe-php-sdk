@@ -3,7 +3,7 @@
 use GuzzleHttp\Client;
 use GuzzleHttp\Handler\MockHandler;
 use GuzzleHttp\HandlerStack;
-use Junior\FipePhpSdk\FipeClient;
+use Hertzogjr\FipePhpSdk\FipeClient;
 
 function mockClient(array $responses): Client
 {

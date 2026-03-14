@@ -1,7 +1,7 @@
 <?php
 
-use Junior\FipePhpSdk\Vehicle\DTOs\VehiclePayloadDTO;
-use Junior\FipePhpSdk\Vehicle\Enums\FipeVehicleTypeEnum;
+use Hertzogjr\FipePhpSdk\Vehicle\DTOs\VehiclePayloadDTO;
+use Hertzogjr\FipePhpSdk\Vehicle\Enums\FipeVehicleTypeEnum;
 
 describe('VehiclePayloadDTO', function () {
     it('stores constructor arguments', function () {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Junior\FipePhpSdk\Vehicle;
+namespace Hertzogjr\FipePhpSdk\Vehicle;
 
 class FipeVehicleException extends \InvalidArgumentException
 {

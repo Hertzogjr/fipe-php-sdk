@@ -1,6 +1,6 @@
 <?php
 
-namespace Junior\FipePhpSdk\Vehicle\Entities;
+namespace Hertzogjr\FipePhpSdk\Vehicle\Entities;
 
 class FipeVehicleEntity implements \JsonSerializable
 {

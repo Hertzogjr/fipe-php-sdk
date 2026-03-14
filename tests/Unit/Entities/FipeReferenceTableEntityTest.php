@@ -1,6 +1,6 @@
 <?php
 
-use Junior\FipePhpSdk\ReferenceTable\Entities\FipeReferenceTableEntity;
+use Hertzogjr\FipePhpSdk\ReferenceTable\Entities\FipeReferenceTableEntity;
 
 describe('FipeReferenceTableEntity', function () {
     it('maps fromArray using Portuguese API keys', function () {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Junior\FipePhpSdk\Vehicle\DTOs;
+namespace Hertzogjr\FipePhpSdk\Vehicle\DTOs;
 
-use Junior\FipePhpSdk\Vehicle\Enums\FipeVehicleTypeEnum;
+use Hertzogjr\FipePhpSdk\Vehicle\Enums\FipeVehicleTypeEnum;
 
 class VehiclePayloadDTO implements \JsonSerializable
 {

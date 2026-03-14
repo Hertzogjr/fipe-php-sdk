@@ -1,5 +1,5 @@
 {
-    "name": "junior/fipe-php-sdk",
+    "name": "hertzogjr/fipe-php-sdk",
     "description": "An unofficial fipe api sdk.",
     "type": "library",
     "require": {
@@ -15,7 +15,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Junior\\FipePhpSdk\\": "src/"
+            "Hertzogjr\\FipePhpSdk\\": "src/"
         }
     },
     "autoload-dev": {

@@ -1,10 +1,10 @@
 <?php
 
-namespace Junior\FipePhpSdk\Vehicle;
+namespace Hertzogjr\FipePhpSdk\Vehicle;
 
 use GuzzleHttp\Client;
-use Junior\FipePhpSdk\Vehicle\DTOs\VehiclePayloadDTO;
-use Junior\FipePhpSdk\Vehicle\Entities\FipeVehicleEntity;
+use Hertzogjr\FipePhpSdk\Vehicle\DTOs\VehiclePayloadDTO;
+use Hertzogjr\FipePhpSdk\Vehicle\Entities\FipeVehicleEntity;
 
 final class FipeVehicleResource
 {

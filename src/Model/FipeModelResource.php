@@ -1,13 +1,13 @@
 <?php
 
-namespace Junior\FipePhpSdk\Model;
+namespace Hertzogjr\FipePhpSdk\Model;
 
 use GuzzleHttp\Client;
-use Junior\FipePhpSdk\Model\DTOs\ModelsByMakePayloadDTO;
-use Junior\FipePhpSdk\Model\DTOs\ModelsByYearPayloadDTO;
-use Junior\FipePhpSdk\Model\DTOs\ModelYearsPayloadDTO;
-use Junior\FipePhpSdk\Model\Entities\FipeModelEntity;
-use Junior\FipePhpSdk\Model\Entities\FipeYearEntity;
+use Hertzogjr\FipePhpSdk\Model\DTOs\ModelsByMakePayloadDTO;
+use Hertzogjr\FipePhpSdk\Model\DTOs\ModelsByYearPayloadDTO;
+use Hertzogjr\FipePhpSdk\Model\DTOs\ModelYearsPayloadDTO;
+use Hertzogjr\FipePhpSdk\Model\Entities\FipeModelEntity;
+use Hertzogjr\FipePhpSdk\Model\Entities\FipeYearEntity;
 
 final class FipeModelResource
 {

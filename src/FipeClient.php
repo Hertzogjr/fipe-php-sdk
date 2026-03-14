@@ -1,6 +1,6 @@
 <?php
 
-namespace Junior\FipePhpSdk;
+namespace Hertzogjr\FipePhpSdk;
 
 use GuzzleHttp\Client;
 

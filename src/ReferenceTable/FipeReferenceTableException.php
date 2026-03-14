@@ -1,6 +1,6 @@
 <?php
 
-namespace Junior\FipePhpSdk\ReferenceTable;
+namespace Hertzogjr\FipePhpSdk\ReferenceTable;
 
 class FipeReferenceTableException extends \InvalidArgumentException
 {

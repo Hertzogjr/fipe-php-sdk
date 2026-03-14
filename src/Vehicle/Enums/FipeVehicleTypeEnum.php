@@ -1,6 +1,6 @@
 <?php
 
-namespace Junior\FipePhpSdk\Vehicle\Enums;
+namespace Hertzogjr\FipePhpSdk\Vehicle\Enums;
 
 enum FipeVehicleTypeEnum: string
 {

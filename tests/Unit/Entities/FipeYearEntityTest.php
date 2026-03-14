@@ -1,6 +1,6 @@
 <?php
 
-use Junior\FipePhpSdk\Model\Entities\FipeYearEntity;
+use Hertzogjr\FipePhpSdk\Model\Entities\FipeYearEntity;
 
 describe('FipeYearEntity', function () {
     it('maps fromArray using Portuguese API keys', function () {

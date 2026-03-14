@@ -1,9 +1,9 @@
 <?php
 
-namespace Junior\FipePhpSdk\Make\DTOs;
+namespace Hertzogjr\FipePhpSdk\Make\DTOs;
 
 use JsonSerializable;
-use Junior\FipePhpSdk\Vehicle\Enums\FipeVehicleTypeEnum;
+use Hertzogjr\FipePhpSdk\Vehicle\Enums\FipeVehicleTypeEnum;
 
 readonly class MakesByVehicleTypeDTO implements JsonSerializable
 {

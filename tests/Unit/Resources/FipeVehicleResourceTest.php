@@ -3,11 +3,11 @@
 use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
-use Junior\FipePhpSdk\Vehicle\DTOs\VehiclePayloadDTO;
-use Junior\FipePhpSdk\Vehicle\Entities\FipeVehicleEntity;
-use Junior\FipePhpSdk\Vehicle\Enums\FipeVehicleTypeEnum;
-use Junior\FipePhpSdk\Vehicle\FipeVehicleException;
-use Junior\FipePhpSdk\Vehicle\FipeVehicleResource;
+use Hertzogjr\FipePhpSdk\Vehicle\DTOs\VehiclePayloadDTO;
+use Hertzogjr\FipePhpSdk\Vehicle\Entities\FipeVehicleEntity;
+use Hertzogjr\FipePhpSdk\Vehicle\Enums\FipeVehicleTypeEnum;
+use Hertzogjr\FipePhpSdk\Vehicle\FipeVehicleException;
+use Hertzogjr\FipePhpSdk\Vehicle\FipeVehicleResource;
 
 describe('FipeVehicleResource::get()', function () {
     beforeEach(function () {

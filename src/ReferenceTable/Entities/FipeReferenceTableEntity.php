@@ -1,6 +1,6 @@
 <?php
 
-namespace Junior\FipePhpSdk\ReferenceTable\Entities;
+namespace Hertzogjr\FipePhpSdk\ReferenceTable\Entities;
 
 readonly class FipeReferenceTableEntity implements \JsonSerializable
 {
