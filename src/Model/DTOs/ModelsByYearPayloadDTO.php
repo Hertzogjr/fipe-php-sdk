@@ -4,14 +4,23 @@ namespace Junior\FipePhpSdk\Model\DTOs;
 
 use Junior\FipePhpSdk\Vehicle\Enums\FipeVehicleTypeEnum;
 
-readonly class ModelYearsPayloadDTO implements \JsonSerializable
+class ModelsByYearPayloadDTO implements \JsonSerializable
 {
+    public readonly string $modelYear;
+
+    public readonly string $fuelTypeCode;
+
     public function __construct(
         public string $makeCode,
         public string $referenceCode,
         public FipeVehicleTypeEnum $vehicleType,
-        public string $modelCode,
-    ) {}
+        public string $yearCode,
+    ) {
+        [$modelYear, $fuelTypeCode] = explode('-', $yearCode);
+
+        $this->modelYear = $modelYear;
+        $this->fuelTypeCode = $fuelTypeCode;
+    }
 
     public function jsonSerialize(): array
     {
@@ -19,7 +28,9 @@ readonly class ModelYearsPayloadDTO implements \JsonSerializable
             'CodigoMarca' => $this->makeCode,
             'CodigoTabelaReferencia' => $this->referenceCode,
             'CodigoTipoVeiculo' => $this->vehicleType->value,
-            'CodigoModelo' => $this->modelCode,
+            'Ano' => $this->yearCode,
+            'CodigoTipoCombustivel' => $this->fuelTypeCode,
+            'AnoModelo' => $this->modelYear,
         ];
     }
 }

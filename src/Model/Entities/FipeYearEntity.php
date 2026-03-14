@@ -2,7 +2,7 @@
 
 namespace Junior\FipePhpSdk\Model\Entities;
 
-readonly class FipeModelEntity implements \JsonSerializable
+readonly class FipeYearEntity implements \JsonSerializable
 {
     public function __construct(
         public string $label,
@@ -24,5 +24,4 @@ readonly class FipeModelEntity implements \JsonSerializable
             'Value' => $this->value,
         ];
     }
-
 }
