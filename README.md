@@ -11,7 +11,7 @@ SDK não oficial para a [API FIPE](https://veiculos.fipe.org.br/api/veiculos/), 
 
 ## Requisitos
 
-- PHP 8.3+
+- PHP 8.4+
 - Composer
 
 ## Instalação
