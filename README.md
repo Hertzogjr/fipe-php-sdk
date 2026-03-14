@@ -25,7 +25,7 @@ composer require hertzogjr/fipe-php-sdk
 Todos os recursos são acessados através do `FipeClient`:
 
 ```php
-use Junior\FipePhpSdk\FipeClient;
+use Hertzogjr\\FipePhpSdk\FipeClient;
 
 $client = new FipeClient();
 ```
@@ -53,8 +53,8 @@ foreach ($result['data'] as $table) {
 Retorna as marcas disponíveis para um tipo de veículo e tabela de referência.
 
 ```php
-use Junior\FipePhpSdk\Make\DTOs\MakesByVehicleTypeDTO;
-use Junior\FipePhpSdk\Vehicle\Enums\FipeVehicleTypeEnum;
+use Hertzogjr\\FipePhpSdk\Make\DTOs\MakesByVehicleTypeDTO;
+use Hertzogjr\\FipePhpSdk\Vehicle\Enums\FipeVehicleTypeEnum;
 
 $result = $client->make()->byVehicleType(
     new MakesByVehicleTypeDTO(
@@ -87,7 +87,7 @@ foreach ($result['data'] as $make) {
 Retorna os modelos e os anos disponíveis para uma marca.
 
 ```php
-use Junior\FipePhpSdk\Model\DTOs\ModelsByMakePayloadDTO;
+use Hertzogjr\\FipePhpSdk\Model\DTOs\ModelsByMakePayloadDTO;
 
 $result = $client->model()->all(
     new ModelsByMakePayloadDTO(
@@ -110,7 +110,7 @@ foreach ($result['data']['Modelos'] as $model) {
 Retorna os anos disponíveis para um modelo específico.
 
 ```php
-use Junior\FipePhpSdk\Model\DTOs\ModelYearsPayloadDTO;
+use Hertzogjr\\FipePhpSdk\Model\DTOs\ModelYearsPayloadDTO;
 
 $result = $client->model()->years(
     new ModelYearsPayloadDTO(
@@ -133,7 +133,7 @@ foreach ($result['data'] as $year) {
 Retorna os modelos de uma marca filtrados por um ano e tipo de combustível específicos.
 
 ```php
-use Junior\FipePhpSdk\Model\DTOs\ModelsByYearPayloadDTO;
+use Hertzogjr\\FipePhpSdk\Model\DTOs\ModelsByYearPayloadDTO;
 
 $result = $client->model()->byYear(
     new ModelsByYearPayloadDTO(
@@ -154,7 +154,7 @@ $result = $client->model()->byYear(
 Retorna os dados completos de precificação FIPE para um veículo específico.
 
 ```php
-use Junior\FipePhpSdk\Vehicle\DTOs\VehiclePayloadDTO;
+use Hertzogjr\\FipePhpSdk\Vehicle\DTOs\VehiclePayloadDTO;
 
 $result = $client->vehicle()->get(
     new VehiclePayloadDTO(
@@ -186,10 +186,10 @@ echo $vehicle->consultationDate; // ex: "segunda-feira, 13 de janeiro de 2025 12
 Cada domínio possui sua própria exception com construtores nomeados:
 
 ```php
-use Junior\FipePhpSdk\ReferenceTable\FipeReferenceTableException;
-use Junior\FipePhpSdk\Make\FipeMakeException;
-use Junior\FipePhpSdk\Model\FipeModelException;
-use Junior\FipePhpSdk\Vehicle\FipeVehicleException;
+use Hertzogjr\\FipePhpSdk\ReferenceTable\FipeReferenceTableException;
+use Hertzogjr\\FipePhpSdk\Make\FipeMakeException;
+use Hertzogjr\\FipePhpSdk\Model\FipeModelException;
+use Hertzogjr\\FipePhpSdk\Vehicle\FipeVehicleException;
 
 try {
     $result = $client->vehicle()->get($payload);
