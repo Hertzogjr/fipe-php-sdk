@@ -2,7 +2,21 @@
 
 namespace Junior\FipePhpSdk\Make\DTOs;
 
-class MakesByVehicleTypeDTO
-{
+use JsonSerializable;
+use Junior\FipePhpSdk\Vehicle\Enums\FipeVehicleTypeEnum;
 
+readonly class MakesByVehicleTypeDTO implements JsonSerializable
+{
+    public function __construct(
+        public FipeVehicleTypeEnum $fipeVehicleType,
+        public string $referenceTableCode,
+    ) {}
+
+    public function jsonSerialize(): array
+    {
+        return [
+            'fipeVehicleType' => $this->fipeVehicleType->value,
+            'referenceTableCode' => $this->referenceTableCode,
+        ];
+    }
 }
