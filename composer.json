@@ -3,7 +3,7 @@
     "description": "An unofficial fipe api sdk.",
     "type": "library",
     "require": {
-        "php": "^8.2",
+        "php": "^8.3",
         "ext-openssl": "*",
         "guzzlehttp/guzzle": "^7.10"
     },
