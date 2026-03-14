@@ -3,8 +3,9 @@
     "description": "An unofficial fipe api sdk.",
     "type": "library",
     "require": {
-        "guzzlehttp/guzzle": "^7.10",
-        "symfony/http-foundation": "^8.0"
+        "php": "^8.2",
+        "ext-openssl": "*",
+        "guzzlehttp/guzzle": "^7.10"
     },
     "require-dev": {
         "laravel/pint": "^1.29",
@@ -17,6 +18,11 @@
             "Junior\\FipePhpSdk\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
     "authors": [
         {
             "name": "Junior Hertzog",
@@ -27,5 +33,9 @@
         "allow-plugins": {
             "pestphp/pest-plugin": true
         }
+    },
+    "scripts": {
+        "format": "./vendor/bin/pint",
+        "test": "./vendor/bin/pest"
     }
 }
