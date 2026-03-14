@@ -17,7 +17,7 @@ SDK não oficial para a [API FIPE](https://veiculos.fipe.org.br/api/veiculos/), 
 ## Instalação
 
 ```bash
-composer require junior/fipe-php-sdk
+composer require hertzogjr/fipe-php-sdk
 ```
 
 ## Uso
